@@ -2,8 +2,8 @@ package com.sridhar.model;
 
 public class KrishnaAvatar implements Avatar {
     @Override
-    public void paritranayaSaadhunaam() {
-
+    public String paritranayaSaadhunaam() {
+        return "";
     }
 
     @Override

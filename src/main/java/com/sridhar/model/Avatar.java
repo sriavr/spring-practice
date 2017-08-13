@@ -2,7 +2,7 @@ package com.sridhar.model;
 
 public interface Avatar {
 
-    public void paritranayaSaadhunaam();
+    public String paritranayaSaadhunaam();
 
     public void vinashayachaDushkrutam();
 

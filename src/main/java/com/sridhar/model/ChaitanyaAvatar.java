@@ -7,8 +7,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class ChaitanyaAvatar implements Avatar {
     @Override
-    public void paritranayaSaadhunaam() {
-
+    public String paritranayaSaadhunaam() {
+        System.out.println("śrī-kṛṣṇa-caitanya prabhu doyā koro more\n" +
+                "tomā binā ke doyālu jagat-saḿsāre");
+        return "śrī-kṛṣṇa-caitanya prabhu doyā koro more\n" +
+                "tomā binā ke doyālu jagat-saḿsāre";
     }
 
     @Override
