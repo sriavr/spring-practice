@@ -1,5 +1,10 @@
-package com.sridhar.configuration.com.sridhar.model;
+package com.sridhar.model;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Qualifier("chaitanya")
+@Component
 public class ChaitanyaAvatar implements Avatar {
     @Override
     public void paritranayaSaadhunaam() {
@@ -13,7 +18,7 @@ public class ChaitanyaAvatar implements Avatar {
 
     @Override
     public void dharmaSamsthapanam() {
-
+        System.out.println("Bhagavatha Dharma is the real Dharma");
     }
 
     @Override

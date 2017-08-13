@@ -1,4 +1,4 @@
-package com.sridhar.configuration.com.sridhar.model;
+package com.sridhar.model;
 
 public interface Avatar {
 

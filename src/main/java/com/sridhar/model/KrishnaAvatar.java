@@ -1,6 +1,6 @@
-package com.sridhar.configuration.com.sridhar.model;
+package com.sridhar.model;
 
-public class RamaAvatar implements Avatar{
+public class KrishnaAvatar implements Avatar {
     @Override
     public void paritranayaSaadhunaam() {
 
@@ -8,7 +8,7 @@ public class RamaAvatar implements Avatar{
 
     @Override
     public void vinashayachaDushkrutam() {
-
+        System.out.println("I am lord Sri Krishna killing the rakshasas: Kamsa, Sisupala, Bakasura");
     }
 
     @Override

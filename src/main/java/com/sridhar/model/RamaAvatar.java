@@ -1,6 +1,9 @@
-package com.sridhar.configuration.com.sridhar.model;
+package com.sridhar.model;
 
-public class KrishnaAvatar implements Avatar {
+import org.springframework.beans.factory.annotation.Qualifier;
+
+@Qualifier("rama")
+public class RamaAvatar implements Avatar{
     @Override
     public void paritranayaSaadhunaam() {
 
